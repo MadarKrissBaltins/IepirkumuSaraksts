@@ -1,10 +1,20 @@
 body {
     background-color: azure;
-    margin: 10px auto;
+    margin: 15px auto;
     min-width: 250px;
     max-width: 50%;
+    margin-left: 800px;
+    margin-top: 150px;
 }
 
-h1 {
+input {
+    border-radius: 20px;
+    outline: none;
+    padding-left: 30px;
+    border: 1px solid rgb(180, 180, 180);
 
+}
+
+#button {
+    
 }

@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="css/stils.css">
+    </head>
    
 <body>
-<h1>Iepirkumu saraksts</h1>
-<input type="text" placeholder="Ievadiet pirkumu" id="input">
-<button onclick="myFunction()">Pievienot</button>
+    <h1>Iepirkumu saraksts</h1>
+    <input type="text" placeholder="Ievadiet pirkumu" id="input">
+    <button onclick="myFunction()">Pievienot</button>
 
-<script>
-function myFunction() {
+    <script>
+    function myFunction() {
     const input = document.getElementbyId('input');
     const list = document.getElementbyId('list');
     let item = "<li> ${input.value} </li>";
     input.value = '';
     list.insertAdjacentHTML('beforeend', item);
 }
-</script>
+    </script>
+
 
 
 
