@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="lv">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href="css/">
-    <title>Document</title>
-</head>
+<html>
+   
 <body>
-    <h1>Iepirkumu saraksts</h1>
+<h1>Iepirkumu saraksts</h1>
+<input type="text" placeholder="Ievadiet pirkumu" id="input">
+<button onclick="myFunction()">Pievienot</button>
 
-    <script src ="js/scripts.js"></script>
+<script>
+function myFunction() {
+    const input = document.getElementbyId('input');
+    const list = document.getElementbyId('list');
+    let item = "<li> ${input.value} </li>";
+    input.value = '';
+    list.insertAdjacentHTML('beforeend', item);
+}
+</script>
+
+
+
 </body>
 </html>
