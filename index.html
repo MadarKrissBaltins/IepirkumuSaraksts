@@ -7,17 +7,16 @@
 <body>
     <h1>Iepirkumu saraksts</h1>
     <input type="text" placeholder="Ievadiet pirkumu" id="input">
-    <button onclick="myFunction()">Pievienot</button>
-
-    <script>
-    function myFunction() {
-    const input = document.getElementbyId('input');
-    const list = document.getElementbyId('list');
-    let item = "<li> ${input.value} </li>";
-    input.value = '';
-    list.insertAdjacentHTML('beforeend', item);
-}
-    </script>
+    
+    <div id="poga">
+        <button id="pirmaPoga">Pievienot</button>
+    </div>
+    
+    <div id="popup">
+        <h3>Slēptais teksts</h3>
+    </div>
+    <img id='iepirkumuRati' src='iepirkumurati.png'>
+    <img id='produkti' src='produkti.png'>
 
 
 

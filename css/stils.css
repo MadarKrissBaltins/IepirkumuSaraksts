@@ -1,5 +1,5 @@
 body {
-    background-color: azure;
+    background-color:crimson;
     margin: 15px auto;
     min-width: 250px;
     max-width: 50%;
@@ -7,14 +7,48 @@ body {
     margin-top: 150px;
 }
 
+
+h1{
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+    margin-left: -90px;
+}
 input {
     border-radius: 20px;
     outline: none;
     padding-left: 30px;
     border: 1px solid rgb(180, 180, 180);
+    font-size:25px;
+    margin-left:-45px;
+  
 
 }
 
-#button {
+#pirmaPoga {
+    margin-left: 62px;
+    margin-top: 50px;
+    position:absolute;
+    font-size:25px;
+}
+
+#iepirkumuRati {
+    margin-left: -500px;
+    margin-top: -20px;
+    size: 200px;
+}
+
+#produkti {
+    margin-left: 800px;
+    margin-top: -20px;
+    size: 200px;
+    width:20%;
     
+
+
+}
+
+#popup {
+
+    display: none;
 }
