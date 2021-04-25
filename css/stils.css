@@ -1,54 +1,45 @@
 body {
-    background-color:crimson;
-    margin: 15px auto;
-    min-width: 250px;
-    max-width: 50%;
-    margin-left: 800px;
-    margin-top: 150px;
+    background-image: url(img/attels123.jpeg);
+    background-repeat: no-repeat;
 }
 
 
 h1{
-    font-size: 50px;
-    color: white;
+    display: flex;
     justify-content: center;
-    margin-left: -90px;
-}
-input {
-    border-radius: 20px;
-    outline: none;
-    padding-left: 30px;
-    border: 1px solid rgb(180, 180, 180);
-    font-size:25px;
-    margin-left:-45px;
-  
-
-}
-
-#pirmaPoga {
-    margin-left: 62px;
-    margin-top: 50px;
-    position:absolute;
-    font-size:25px;
-}
-
-#iepirkumuRati {
-    margin-left: -500px;
-    margin-top: -20px;
-    size: 200px;
-}
-
-#produkti {
-    margin-left: 800px;
-    margin-top: -20px;
-    size: 200px;
-    width:20%;
-    
-
-
+    align-items: center;
+    font-size: 50px;
+    color:black;
 }
 
 #popup {
-
     display: none;
+}
+
+#poga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#pirmaPoga{
+    margin: 5%;
+    width: 10%;
+    background-color:green;
+    font-size: large;
+    border-radius: 20px;
+    border: 1px solid black;
+
+
+
+}
+
+#form {
+    background-color: black;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid crimson;
+    width: 30%;
+    border-radius: 20px;
+
 }

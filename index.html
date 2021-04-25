@@ -6,20 +6,20 @@
    
 <body>
     <h1>Iepirkumu saraksts</h1>
-    <input type="text" placeholder="Ievadiet pirkumu" id="input">
     
     <div id="poga">
         <button id="pirmaPoga">Pievienot</button>
     </div>
     
     <div id="popup">
-        <h3>Slēptais teksts</h3>
+        <form id="form">
+            <input type="text" id="precesNosaukums" placeholder="Preces nosaukums">
+            <input type="text" id="precesDaudzums" placeholder="Daudzums">
+            <button type="submit" id="pievienotPreci">Pievienot preci</button>
+        </form>
     </div>
-    <img id='iepirkumuRati' src='iepirkumurati.png'>
-    <img id='produkti' src='produkti.png'>
-
-
-
-
+    
+    <script src="js/skripts.js"></script>
 </body>
 </html>
+
