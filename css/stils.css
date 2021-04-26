@@ -1,7 +1,3 @@
-body {
-    background-image: url(img/attels123.jpg);
-    background-repeat: no-repeat;
-}
 
 
 h1{
@@ -25,7 +21,7 @@ h1{
 #pirmaPoga{
     margin: 5%;
     width: 10%;
-    background-color:limegreen;
+    background-color: lime;
     font-size: large;
     border-radius: 20px;
     border: 1px solid black;
@@ -71,4 +67,24 @@ h1{
     font-size: 20px;
     border: solid 2px black;
     
+}
+#biblioteka {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.otrais {
+    background-color:rgb(174, 20, 212);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 300px;
+    width: 200px;
+    padding: 5px;
+    margin: 20px;
 }
